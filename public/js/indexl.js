@@ -2,7 +2,7 @@
  * @Date         : 2023-07-07 14:06:34
  * @Author       : BDFD,bdfd2005@gmail.com
  * @Github       : https://github.com/bdfd
- * @LastEditTime : 2023-07-07 14:21:12
+ * @LastEditTime : 2023-07-07 15:23:12
  * @LastEditors  : BDFD
  * @Description  :
  * @FilePath     : \public\js\indexl.js
@@ -34,7 +34,9 @@ var S = {
 		if (i !== -1) {
 			S.UI.simulate(decodeURI(action).substring(i + 3));
 		} else {
-			S.UI.simulate("祝你|生日|快乐||#countdown 3||");
+			S.UI.simulate(
+				"祝你生日|不止快乐|成长|不期而遇|幸福|如约而至||#countdown 3||"
+			);
 		}
 
 		S.Drawing.loop(function () {
